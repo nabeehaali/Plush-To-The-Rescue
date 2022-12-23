@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Nabeeha Ali: See comments below for how this code works
 public class ClawMovement : MonoBehaviour
 {
     //Info about vector from the roof

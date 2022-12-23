@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Nabeeha Ali: This is similar to the regular ClawMovement script, except it takes away the option to grab the player upon collision, made specifically for the game's interactive tutorial.
 public class ClawMovementTutorial : MonoBehaviour
 {
     //Info about vector from the roof

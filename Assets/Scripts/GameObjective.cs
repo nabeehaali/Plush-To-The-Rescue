@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+//Nabeeha Ali: This manages the different options for what prompt gets displayed in game. By assigning a min and max value of number of objects to collect (in the unity inspector), a prompt will be generated that the player follows in order to progress in the game. The prompot changes when the player achieves their objective or when they lose.
 public class GameObjective : MonoBehaviour
 {
     [SerializeField]

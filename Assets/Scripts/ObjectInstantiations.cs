@@ -20,6 +20,7 @@ public class ObjectInstantiations : MonoBehaviour
     bool isUpdate;
     SoundManager SoundManager;
 
+    //Nabeeha Ali: This instantiates different types of collectibles within a restricted area by selecting an index from a list that can be easily edited in the unity inspector. See comments below for more details.
     private void Start()
     {
         left = new Vector2(-3.29f, -4.59f);
@@ -49,7 +50,7 @@ public class ObjectInstantiations : MonoBehaviour
         SoundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
     }
 
-    //similar to claw movment, generates a point where the object can be instantiated on the ground
+    //similar to claw movement, generates a point where the object can be instantiated on the ground
     void generatePosition()
     {
         randomPoint = new Vector2(Random.Range(left.x, right.x), Random.Range(down.y, up.y));

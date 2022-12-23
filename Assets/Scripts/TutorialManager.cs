@@ -19,6 +19,7 @@ public class TutorialManager : MonoBehaviour
     public TMP_Text countdown;
     public GameObject skip;
 
+    //Nabeeha Ali: This handles what gets displayed at each step of the game's interactive tutorial and determines which conditions allow for the user to proceed to the next step. See comments below for details.
     void Update()
     {
         //makes certain steps visible
