@@ -3,7 +3,7 @@
 This is a 2D simulation game about a stuffed bear running around a prize machine to save other plushies from being picked up by the claw. Plushies are added to the player's line and are dropped off at the chute until the claw inevitably picks up the player. 
 
 My responsibilities included: 
-- Programming the behaviour for the claw to gradually chase the player over time.
+- Programming the behaviour for the claw to gradually chase the player over time
 - Instantaiting objects for the player to collect based on type of stuffed animation and location restrictions
 - Adding game feel through animations such as the claw grabbing objects and/or the player as well as environmental changes when these conditions occured
 - Building an interactive tutorial to effectively teach players how to play the game
